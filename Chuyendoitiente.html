@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+    <script src="js3.js"></script>
+</head>
+<body>
+<h1>Ứng dụng chuyển đổi tiền tệ dành cho các con buôn thời 4.0</h1>
+    <p>Chọn mệnh giá và số lượng ngân lượng bạn muốn quy đổi, tôi sẽ giúp bạn trong phút chốc:</p><br>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th> To Currency</th>
+        </tr>
+        <tr>
+            <td>
+                <input id="input5" type="number" name="mount">
+            </td>
+            <td>
+                <select id="f">
+                    <option id="VND1" value="1">VietNamdong</option>
+                    <option id="USD1" value="24000">USD</option>
+                    <option id="EURO1" value="28000">EURO</option>
+                    <option id="L1" value="33000">Bảng Anh</option>
+                    <option id="NDT1" value="3450">Nhân dân tệ</option>
+                </select>
+            </td>
+            <td>
+                <select id="t">
+                    <option id="VND2" value="1">VietNamdong</option>
+                    <option id="USD2" value="24000">USD</option>
+                    <option id="EURO2" value="28000">EURO</option>
+                    <option id="L2" value="33000">Bảng Anh</option>
+                    <option id="NDT2" value="3450">Nhân dân tệ</option>
+                </select>
+            </td>
+            <th>
+               <button onclick="chuyendoitiente()">Convert</button>
+            </th>
+        </tr>
+    </table>
+    <p id="kq"></p>
+</body>
+</html>
